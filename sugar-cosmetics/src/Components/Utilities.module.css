@@ -1,0 +1,32 @@
+.searchBox{
+    background-color: #212121;
+    padding: 12px 20px;
+    width: 80%;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid grey;
+    color: white;
+}
+.searchBtn{
+    padding: 12px 30px;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    font-size: 15px;
+    background-color: white;
+    cursor: pointer;
+}
+.searchBoxLight{
+    background-color: white;
+    padding: 12px 20px;
+    width: 76%;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid grey;
+}
+.searchBtnDark{
+    padding: 12px 20px;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

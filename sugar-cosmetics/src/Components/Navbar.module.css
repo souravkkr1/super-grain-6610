@@ -2,10 +2,51 @@
     padding: 0;
     margin: 0;
 }
-.navbar{
+.top{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    align-items: center;
     background-color: black;
     color: white;
+    height: 75px;
     /* flex-direction: row; */
+}
+.top > .logo{
+    width: 18%;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.top > .logo > img{
+    width: 80%;
+}
+.top > .search{
+    /* border: 2px solid green; */
+    width: 52%;
+}
+
+.top > .user{
+    /* border: 2px solid yellow; */
+    width: 20%;
+}
+.top > .btns{
+    border: 2px solid white;
+    width: 20%;
+}
+
+/* Bottom Bar */
+
+.bottom{
+    background-color: #141414;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0 40px;
+}
+.bottom > a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 44px;
 }
