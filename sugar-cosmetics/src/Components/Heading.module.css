@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    gap: 20px;
+    padding: 50px 0 20px 0;
+}
+
+hr{
+    border:1px solid red;
+    width: 50px;
+}
+h2{
+    font-weight: 400;
+}
