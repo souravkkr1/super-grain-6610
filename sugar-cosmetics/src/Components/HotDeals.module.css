@@ -1,0 +1,12 @@
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.box > img{
+    border-radius: 20px;
+    width: 430px;
+}

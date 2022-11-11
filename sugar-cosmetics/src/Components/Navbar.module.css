@@ -28,9 +28,22 @@
     /* border: 2px solid yellow; */
     width: 20%;
 }
+.user > h4 > a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: 400;
+}
 .top > .btns{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 20%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    height: auto;
+    padding-right: 30px;
 }
 
 /* Bottom Bar */

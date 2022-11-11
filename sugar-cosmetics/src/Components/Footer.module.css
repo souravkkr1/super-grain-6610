@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: auto;
     width: 100%;
     background-color: black;
@@ -15,43 +15,133 @@
     flex-direction: column;
 }
 .container > div {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 100%;
 }
-.container > .top > .first {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.container > .top > .first > div  {
-    /* border: 2px solid blue; */
-    background-color: black;
-    height: 16%;
-    width: 9%;
-    position: absolute;
-    /* text-ali/gn: center; */
-    border-radius: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
+/* FIRST ROW */
+
+.first {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.logo  {
+     /* border: 2px solid blue; */
+     background-color: black;
+     height: 130px;
+     width: 130px;
+     position: relative;
+     bottom: 70px;
+     /* text-ali/gn: center; */
+     border-radius: 70%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
 }
 .logo > img{
-    width: 70%;
+    width: 76%;
     margin-top: 25px;
-
 }
-.container > .top > .second > div  {
-    border: 2px solid yellow;
-    height: 90px;
-    width: 100%;
-}
-.container > .top > .third > .touch > div  {
+.social{
+    /* border: 2px solid grey; */
+    /* height: 100px; */
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    border: 2px solid red;
-    height: 90px;
-    width: 20%;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.social > div{
+    height: 30px;
+    width: 30px;
+    background-color: #969696;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+/* SECOND ROW */
+
+.second{
+    /* border: 2px solid yellow; */
+    border-bottom: 1px solid #969696;
+    border-top: 1px solid #969696;
+    width: 90%;
+    margin: auto;
+
+}
+.second > .links  {
+   /* border: 2px solid red; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.links > a{
+   text-decoration: none;
+   color: white;
+   padding: 30px 50px;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+/* THIRD ROW */
+
+.third{
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid #969696;
+    
+}
+.third > .box{
+    width: 85%;
+    margin: auto;
+    padding: 30px 0;
+}
+.box > h1{
+    margin-bottom: 30px;
+}
+.touch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.touch > div > h3{
+    margin-bottom: 15px;
+}
+.touch > div > p{
+    color: #969696;
+}
+
+/* FOURTH ROW */
+
+.fourth{
+    /* border: 2px solid yellow; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.fourth  > div >p{
+    color: #969696;
+}
+.fourth > img{
+   /* border: 2px solid green; */
+   width: 120px;
+   padding: 40px 0;
+}
+.bottom{
+    color: #969696;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    border-top: 1px solid  #969696;
 }
