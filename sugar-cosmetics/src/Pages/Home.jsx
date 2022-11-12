@@ -16,8 +16,9 @@ import ShukarHai from '../Components/ShukarHai'
 
 const Home = () => {
   return (
+    <>
+    <Navbar/>
     <div className={style.main}>
-      <Navbar/>
       <Banner/>
       <Bestsellers/>
       <HotDeals/>
@@ -31,6 +32,7 @@ const Home = () => {
       <NewsLetter/>
       <Footer/>
     </div>
+    </>
   )
 }
 

@@ -1,0 +1,55 @@
+.main{
+    padding-top: 120px;
+}
+.container{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px 30px;
+    background-color: white;
+}
+.linkbar{
+    height: 50px;
+    /* border: 2px solid red; */
+    position: relative;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.left > img{
+    width: 70%;
+}
+.right > h2 {
+    margin-bottom: 40px;
+}
+.right > .offers{
+    background-color: rgb(235, 235, 235);
+    padding: 10px 40px;
+    border-radius: 7px;
+    margin: 20px 0;
+}
+.offers > p{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.offers > ul > li{
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: grey;
+}
+.pinktext{
+    color: rgb(255, 20, 224);
+}
+#pincode{
+    padding: 15px 30px;
+    margin-top: 20px;
+}
+.checks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
