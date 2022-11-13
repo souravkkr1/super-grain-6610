@@ -3,6 +3,8 @@ import Navbar from '../Components/Navbar'
 import style from './ProductPage.module.css'
 import Button from '../Components/Button'
 import {Link} from 'react-router-dom'
+import Footer from '../Components/Footer'
+import NewsLetter from '../Components/NewsLetter'
 
 const ProductPage = () => {
   return (
@@ -28,7 +30,7 @@ const ProductPage = () => {
                     </ul>
                     <p className={style.pinktext}>+view more</p>
                 </div>
-                <Button text="ADD TO CART" />
+                <Link to="/cartpage"><Button text="ADD TO CART" /></Link>
                 <hr />
                 <input type="text" id={style.pincode} placeholder="Enter Delivery Pincode "/> <Button text="CHECK" />
                 <div className={style.checks}>
@@ -40,6 +42,8 @@ const ProductPage = () => {
             </div>
         </div>
     </div>
+    <NewsLetter />
+    <Footer />
     </>
   )
 }

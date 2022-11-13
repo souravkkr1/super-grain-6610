@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from './Button'
 import style from "./ProductBox.module.css"
+import {Link } from 'react-router-dom';
 
 const ProductBox = ({src, name, price}) => {
   return (
@@ -9,7 +10,7 @@ const ProductBox = ({src, name, price}) => {
         <p>{name}</p>
         <h3>{price}</h3>
         <div>
-            <Button text="ADD TO CART" />
+            <Link to="/product"><Button text="ADD TO CART" /></Link>
         </div>
     </div>
   )

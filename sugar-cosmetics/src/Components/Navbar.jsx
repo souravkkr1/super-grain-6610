@@ -7,6 +7,9 @@ import {BiShoppingBag} from 'react-icons/bi'
 import {TbDiscount2} from 'react-icons/tb'
 
 function Navbar(){
+
+    const userData= JSON.parse(localStorage.getItem("sugarUsers")) || undefined;
+
     return(
         <div className={style.navbar}>
             <div className={style.top}>
@@ -18,7 +21,7 @@ function Navbar(){
                     <button className={utility.searchBtn}>Search</button>
                 </div>
                 <div className={style.user}>
-                    <h4><FaUserCircle/><Link to="/login">Login/Register</Link></h4>
+                    <h4><FaUserCircle/><Link to="/login">{userData ? userData.name : "Login/Register"}</Link></h4>
                 </div>
                 <div className={style.btns}>
                     <FaRegHeart/>
