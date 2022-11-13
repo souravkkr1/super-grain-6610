@@ -15,6 +15,9 @@
     font-weight: 600;
     margin-top: 10px;
 }
+.left > button{
+    padding: 5px;
+}
 .right > h2{
     font-size: 22px;
     font-weight: 600;
@@ -26,10 +29,10 @@
     padding: 20px;
     margin-top: 20px;
 }
-.cardDet > a> button{
+.cardDet > a > button{
     background-color: black;
     color: white;
-    padding: 10px 30px;
+    /* padding: 10px 30px; */
     display: flex;
     margin-top: 10px;
     width: 180px;
@@ -58,7 +61,7 @@
     /* justify-content: space-between; */
 }
 .cardDet > .moreDet > input{
-    padding: 15px 20px;
+    padding: 15px 40px;
     border: 1px solid gray;
     margin-top: 10px;
     border-radius: 10px;
