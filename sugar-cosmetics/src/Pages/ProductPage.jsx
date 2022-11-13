@@ -17,10 +17,10 @@ const ProductPage = () => {
         </div>
         <div className={style.container}>
             <div className={style.left}>
-                <img src="https://cdn.shopify.com/s/files/1/0906/2558/products/382512089-mettle-priming-balm-01.jpg?v=1648654861" alt="" />
+                <img src="https://cdn.shopify.com/s/files/1/0906/2558/products/SUGAR-Prime-Sublime-Primer---Powered-By-Images1_ebe7ea59-dff5-4a2a-9a70-c94435d3f46e.jpg?v=1666928973" alt="" />
             </div>
             <div className={style.right}>
-                <h2>SUGAR Prime Sublime Primer - Brightening</h2>
+                <h2>SUGAR Prime Sublime Primer </h2>
                 <p>₹499.00</p>
                 <div className={style.offers}>
                     <p>AVAILABLE OFFERS!!</p>
@@ -31,14 +31,8 @@ const ProductPage = () => {
                     <p className={style.pinktext}>+view more</p>
                 </div>
                 <Link to="/cartpage"><Button text="ADD TO CART" /></Link>
-                <hr />
+                <hr style={{marginLeft:"10px"}}/>
                 <input type="text" id={style.pincode} placeholder="Enter Delivery Pincode "/> <Button text="CHECK" />
-                <div className={style.checks}>
-                    <p>Cruelty free</p>
-                    <p>Easy Return</p>
-                    <p>Quality First</p>
-                    <p>Cruelty free</p>
-                </div>
             </div>
         </div>
     </div>

@@ -5,4 +5,5 @@
 .container > div > img{
     width: 80%;
     border-radius: 20px;
+    margin: auto;
 }

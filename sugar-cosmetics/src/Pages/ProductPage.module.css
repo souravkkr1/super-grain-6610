@@ -20,11 +20,18 @@
     margin-top: 30px;
     margin-bottom: 20px;
 }
+.linkbar > a{
+    margin-right: 20px;
+    margin-left: 20px;
+}
 .left > img{
     width: 70%;
+    border-radius: 10px;
 }
 .right > h2 {
     margin-bottom: 40px;
+    font-size: 28px;
+    font-weight: 600;
 }
 .right > .offers{
     background-color: rgb(235, 235, 235);
@@ -53,3 +60,20 @@
     justify-content: center;
     align-items: center;
 }
+a > button{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+}
+ .right > input{
+    border: 1px solid rgb(227, 225, 225);
+    border-radius: 7px;
+ }
+ .right > button{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    width: 200px;
+ }

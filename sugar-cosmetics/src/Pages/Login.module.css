@@ -42,7 +42,10 @@
     font-size: 14px;
     color: #5a5959;
 }
-.right > button{
+.right > a > button{
     margin: 40px 0;
     cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
 }

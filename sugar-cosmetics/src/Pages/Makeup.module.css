@@ -32,6 +32,10 @@ body{
     display: flex;
     align-items: center;
 }
+.linkbar > a{
+    margin-right: 20px;
+    margin-left: 20px;
+}
 .listing{
     display: flex;
     justify-content: center;

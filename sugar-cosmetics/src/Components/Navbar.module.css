@@ -31,7 +31,8 @@
 
 .top > .user{
     /* border: 2px solid yellow; */
-    width: 20%;
+    width: 30%;
+    height: 70px;
 }
 .user > h4 > a{
     text-decoration: none;
@@ -41,7 +42,7 @@
 }
 .top > .btns{
     /* border: 2px solid white; */
-    width: 20%;
+    width: 10%;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -67,4 +68,14 @@
     font-size: 14px;
     font-weight: 600;
     padding-right: 44px;
+}
+
+.searchBtn{
+    padding: 12px 30px;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    font-size: 15px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
 }

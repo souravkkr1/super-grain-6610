@@ -6,6 +6,7 @@ import Makeup from './Makeup';
 import ProductPage from './ProductPage';
 import Otp from './Otp';
 import UserDetails from './UserDetails';
+import Payment from './Payment';
 
 function AllRoutes(){
     return(
@@ -17,6 +18,7 @@ function AllRoutes(){
             <Route path='/cartpage' element={<CartPage/>}/>
             <Route path='/otp' element={<Otp/>}/>
             <Route path='/user-details' element={<UserDetails/>}/>
+            <Route path='/payment' element={<Payment/>}/>
         </Routes>
     )
 }

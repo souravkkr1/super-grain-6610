@@ -1,0 +1,68 @@
+.main{
+    display: flex;
+    padding:120px 30px 30px 30px ;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+}
+.left{
+    /* border: 2px solid red; */
+    height: auto;
+    width: 48%;
+    padding: 20px;
+}
+.left >div > h2{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.right > h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+.right{
+    /* border: 2px solid green; */
+    height: auto;
+    width: 48%;
+    padding: 20px;
+    margin-top: 20px;
+}
+.cardDet > a> button{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    display: flex;
+    margin-top: 10px;
+    width: 180px;
+    
+}
+.cardDet{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cardDet > input{
+    border: 1px solid gray;
+    padding: 15px 20px;
+    width: 470px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.cardDet > .moreDet{
+    display: flex;
+    /* flex-direction: column; */
+   
+    /* justify-content: space-between; */
+}
+.cardDet > .moreDet > input{
+    padding: 15px 20px;
+    border: 1px solid gray;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.cardDet > .moreDet > input:last-child{
+    margin-left: 30px;
+}
