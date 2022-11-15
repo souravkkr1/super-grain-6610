@@ -6,6 +6,8 @@ import prods from "../products.json";
 import ProductBox from '../Components/ProductBox'
 
 const Makeup = () => {
+  // const [clicked, setClicked]= useState({})
+
   return (
     <>
     <Navbar/>

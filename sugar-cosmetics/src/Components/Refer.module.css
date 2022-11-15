@@ -1,0 +1,13 @@
+.refer{
+    width: 100%;
+    /* border: 2px solid red; */
+    }
+    .box{
+        width: 95%;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    .box > img{
+        width: 100%;
+        border-radius: 20px;
+    }

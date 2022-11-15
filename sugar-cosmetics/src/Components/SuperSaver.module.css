@@ -1,16 +1,17 @@
-.bestsellers{
-    background-image: url(https://media.sugarcosmetics.com/upload/homePageBackGroundTexture.jpg);
+.supersaver{
+    background-image: url(https://media.sugarcosmetics.com/upload/VTOBackgroungTexture.png);
     height: auto;
     margin-top: 60px;
     color: white;
+    margin-bottom: 60px;
 }
-.bestsellers > .box{
+.supersaver > .box{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     color: black;
     /* border: 2px solid yellow; */
     width: 90%;
     margin: auto;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     gap: 20px;
 }

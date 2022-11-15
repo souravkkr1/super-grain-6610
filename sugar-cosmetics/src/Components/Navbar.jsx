@@ -26,7 +26,7 @@ function Navbar(){
                 </div>
                 <div className={style.btns}>
                     <FaRegHeart/>
-                    <BiShoppingBag/>
+                    <Link to="/cartpage"><BiShoppingBag className={style.cartIcon}/></Link>
                     <TbDiscount2/>
                 </div>
             </div>

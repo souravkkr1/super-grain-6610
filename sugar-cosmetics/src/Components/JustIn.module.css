@@ -1,15 +1,14 @@
-.bestsellers{
-    background-image: url(https://media.sugarcosmetics.com/upload/homePageBackGroundTexture.jpg);
+.container{
     height: auto;
-    margin-top: 60px;
-    color: white;
+    margin-top: 20px;
+    color: black;
 }
-.bestsellers > .box{
+.container > .box{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     color: black;
     /* border: 2px solid yellow; */
-    width: 90%;
+    width: 82%;
     margin: auto;
     padding-bottom: 50px;
     gap: 20px;
